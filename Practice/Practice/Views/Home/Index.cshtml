@@ -1,0 +1,25 @@
+﻿@*@model List<int>*@
+
+@*<h1>Hello P135</h1>
+
+@{
+    string[] names = (string[])ViewData["names"];
+    int[] nums = ViewBag.numbers;
+}
+
+@foreach (var item in names)
+    {
+        <h2>@item</h2>
+    }
+
+@foreach (var item in nums)
+    {
+        <h3>@item</h3>
+    }*@
+
+@*@foreach (var item in Model)
+    {
+        <span>@item</span>
+    }*@
+
+@*<h1>@ViewBag.name</h1>*@
