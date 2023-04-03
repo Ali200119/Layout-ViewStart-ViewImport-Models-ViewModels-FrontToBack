@@ -1,4 +1,7 @@
 ﻿@*@model List<int>*@
+@*@model string*@
+@*@model Student*@
+@*@model List<Student>*@
 
 @*<h1>Hello P135</h1>
 
@@ -23,3 +26,25 @@
     }*@
 
 @*<h1>@ViewBag.name</h1>*@
+
+@*<h1>@Model</h1>*@
+
+@*<h1>@Model.Id</h1>
+<h1>@Model.FullName</h1>
+<h1>@Model.Age</h1>
+
+<span>@ViewBag.address</span>*@
+
+@*@foreach (var item in Model)
+    {
+        <h1>@item.Id</h1>
+        <h1>@item.FullName</h1>
+        <h1>@item.Age</h1>
+    }*@
+
+
+
+
+<main>
+    <h1>Home page</h1>
+</main>
