@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{DA6C57EA-7420-472A-9D6F-A4678D61ABA0}|Default">
-  <MonoDevelop.Ide.ItemProperties.Practice FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Practice PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
 </Properties>
